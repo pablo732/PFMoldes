@@ -1,0 +1,86 @@
+@import "index";
+@import "muebles";
+@import "contacto";
+@import "electrodomesticos";
+@import "outlet";
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  /* CONTACTO, ELECTRODOMESTICOS Y OUTLET */
+  
+  /* MUEBLES */
+  
+  /* MEDIA QUERIES */
+  
+  @media (max-width: 575px) {
+    .galeria-container {
+      display: grid !important;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-row-gap: 30px;
+      justify-items: center;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+    .galeria-container {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-row-gap: 30px;
+      justify-items: center;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .galeria-container {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-row-gap: 30px;
+      justify-items: center;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .galeria-container {
+      display: grid !important;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-row-gap: 30px;
+      justify-items: center;
+      margin-top: 20px;
+    }
+  }
+  
+  /* X-Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    .galeria-container {
+      display: grid !important;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-row-gap: 30px;
+      justify-items: center;
+      margin-top: 20px;
+    }
+  }
+  
+  /* XX-Large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    .galeria-container {
+      display: grid !important;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-row-gap: 30px;
+      justify-items: center;
+      margin-top: 20px;
+    }
+  }
+  
