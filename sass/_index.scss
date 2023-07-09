@@ -1,33 +1,39 @@
 header {
-    background-color: whitesmoke;
-    .nav {
-      background-color: black;
-    }
-    .card-deck {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .card.border-0 {
-      border: 0;
-    }
-  
-    .card-group {
-      margin-top: 5px;
-      margin-bottom: 5px;
-    }
-  
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg)
-        brightness(100%) contrast(100%);
-    }
-    
-    .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-  }
+  background-color: whitesmoke;
+}
+
+header .nav {
+  background-color: black;
+}
+
+header .card-deck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .card.border-0 {
+  border: 0;
+}
+
+header .card-group {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+header .carousel-control-prev-icon,
+header .carousel-control-next-icon {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#mapIframe {
+  width: 400px;
+  height: 300px;
+}
